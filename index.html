@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="./main.css" rel="stylesheet">
-        <link rel="shortcut icon" href="unicorn.png" type="image/x-icon">
-        <title>TO-DO UNICORN </title>
-    </head>
-    <body>
-        <div id="root-container">
-            <div id="layer-0">
-                <span id="header">TO-DO <img class="icon" src="./to-do-list-reduced.png"></span>
-                <form class="border" id="basic-input" action="#">
-                    <input class="full" type="text" placeholder="Add a Task" id="to-do">
-                    <!-- <img src="./calendar.png" class="icon" id="date-icon"></img> -->
-                    <input class="hie input" type="date" id="date">
-                    <!-- <img src="./add-button.png" class="icon" id="btn-icon"> -->
-                    <input type="image" src="./add-button.png" class="icon" id="btn-icon">
-                </form>
-                <div class="border" id="list">
-                    <p for="">Date created - </p>
-                    <input type="checkbox" name="checkbok" id="check-box">
-                    <P>Run the LLm application and diagonise the problem 
-                        <img src="./pencil.png" class="icon" id="edit">
-                        <img src="./delete.png" class="icon" id="delete">
-                    </P>
-
-                </div>
-            </div>
-            <div class="footer"> © TO-DO UNICORN</div>
-        </div>
-    </body>
-    <script src="./main.js"></script>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./main.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="unicorn.png" type="image/x-icon" />
+    <title>TO-DO UNICORN</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="layer-0">
+        <span id="header"
+          >TO-DO <img class="icon" src="./to-do-list.png"
+        /></span>
+        <form class="" id="basic-input" action="#">
+          <input
+            class="full"
+            type="text"
+            placeholder="Add a Task"
+            id="to-do"
+            maxlength="60"
+          />
+          <input class="" type="date" id="date-input" />
+          <input
+            type="image"
+            src="./add-button.png"
+            class="icon"
+            id="btn-icon"
+          />
+        </form>
+        <ul class="list"></ul>
+      </div>
+      <div class="footer">© TO-DO UNICORN</div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
 </html>
