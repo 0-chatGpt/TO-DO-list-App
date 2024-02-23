@@ -7,7 +7,7 @@
 1. [Introduction](#1-introduction)
 2. [Project Overview](#2-project-overview)
 3. [Getting Started](#3-getting-started)
-4. [Usage](#8-usage)
+4. [Usage](#4-usage)
 
 ## 1. Introduction
 
@@ -39,7 +39,7 @@ Make sure you have the following installed:
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd TO_DO-list-App
+   cd TO-DO-list-App
    ```
 
 3. **Open `index.html` in a Browser:**
@@ -69,4 +69,4 @@ Make sure you have the following installed:
 
 ## 5.Deployment
 
-   - Click this [link](https://to-do-azure-iota.vercel.app/) to go to deployed site. 
+- Click this [link](https://to-do-azure-iota.vercel.app/) to go to deployed site.
