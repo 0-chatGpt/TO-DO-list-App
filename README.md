@@ -66,3 +66,7 @@ Make sure you have the following installed:
 
 4. **Deleting a Task:**
    - Click the "Trash" button on a task to delete it.
+
+## 5.Deployment
+
+   - Click this [link](https://to-do-azure-iota.vercel.app/) to go to deployed site. 
